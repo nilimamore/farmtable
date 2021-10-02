@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.marginTop10 {
+  margin-top: 10px;
+}
+.clear {
+  clear: both;
+}
+.mainContainer {
+  margin:10px;
+}
+
+.polyHouse {
+  padding: 10px;
+}
+
+.nodeContainer {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.nodeTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+.trayContainer {
+  float: left;
+  margin-right: 15px;
+}
+.trayTitle {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#tbl {    
+    border-collapse: collapse;
+    margin-top: 5px;
+  }
+  
+  #tbl td, #tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tbl tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tbl tr:hover {background-color: #ddd;}
+  
+  #tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
